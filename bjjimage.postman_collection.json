@@ -1,0 +1,40 @@
+{
+	"info": {
+		"name": "bjjimage",
+		"_postman_id": "81c4a353-c00d-447f-34db-b37a1420afbe",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3003/api/fotos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3003/api/fotos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3003",
+					"path": [
+						"api",
+						"fotos"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
